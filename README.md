@@ -7,27 +7,17 @@ To write a python program to implement the multi class classification algorithm 
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner / Google Colab
 
 ## Related Theoritical Concept:
-numpy-used to manipulate arrays and mathematical operations on arrays.
-import matplotlib.pyplot as plt-used to represent the given data set in a graphical manner.
-Sklearn-used for statistical modelling and build machine learning models.
-Datasets-used to introduce many small datasets and fetch large data sets.
-.make_blobs-used to generate blobs of points with a gaussian distribution.
-Counter-It is a sub class of dictionary class used to count the key-value pair in the given data set.  
+In multi-class classification, the neural network has the same number of output nodes as the number of classes. Each output node belongs to some class and outputs a score for that class. Class is a category for example Predicting animal class from an animal image is an example of multi-class classification, where each animal can belong to only one category.
 
 ## Algorithm
 ### Step 1:
-Import necessary libraries from packages.
+Import the necessary modules
 ### Step 2:
-Assign x,y values from the given dataset by sklearn. 
+Frame the dataset using make_blobs
 ### Step 3:
-Count the number of key-value pairs in the datasets using counter libraries.
+Assign the counter value using the Counter function
 ### Step 4:
-Plot the x and y values in the chart using mathplotlib.pyplot
-### Step 5:
-Label the values of x and y axis and add title to the graph .
-### Step 6:
-Save the file and execute the program.
-
+Using a for loop, plot the points using scatter function
 
 ## Program:
 ```
