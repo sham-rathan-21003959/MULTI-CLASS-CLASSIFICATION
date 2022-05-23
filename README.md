@@ -47,6 +47,9 @@ pyplot.legend()
 pyplot.show()
 
 ```
+
+
+
 ## Output:
 ![multi class classification plot](/03.png)
 
